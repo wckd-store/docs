@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1251px" preserveAspectRatio="none" style="width:545px;height:1251px;" version="1.1" viewBox="0 0 545 1251" width="545px" zoomAndPan="magnify"><defs/><g><!--MD5=[b0f228748dcfd151c75bc99b6092fd70]
+cluster client_boundary--><rect fill="#FFFFFF" height="440" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="252" x="63.5" y="138"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="147.5" y="152.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="111.5" y="171.1484">wckd-store client</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="158.5" y="186.0605">[System]</text><!--MD5=[6de10d6298862a7ff238ecadc261759b]
+cluster server_boundary--><rect fill="#FFFFFF" height="215" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="218" x="80.5" y="641"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="147.5" y="655.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="166" x="106.5" y="674.1484">wckd-store server</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="158.5" y="689.0605">[System]</text><!--MD5=[c2c08906a0b07f13feabb50a10edf8bf]
+cluster service_boundary--><rect fill="#FFFFFF" height="182" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="228" x="92.5" y="919"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="164.5" y="933.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="115.5" y="952.1484">wckd-store services</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="175.5" y="967.0605">[System]</text><!--MD5=[350500295933f9e627b776d0c566bcfe]
+cluster worker_boundary--><rect fill="#FFFFFF" height="182" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="212" x="322.5" y="657.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="84" x="386.5" y="672.4951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="182" x="337.5" y="690.6484">wckd-store workers</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="397.5" y="705.5605">[System]</text><!--MD5=[8824c66cba45be527cf3dd56bcd70cd2]
+entity nginx--><rect fill="#438DD5" height="131.75" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="79.5" y="205"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="152.5" y="226.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="124" x="127.5" y="243.8203">Load Balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="167" y="258.7324">[Nginx]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="191.5" y="274.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="89.5" y="290.8545">Looks for the server with the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="109.5" y="307.1514">lowest processing and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="107" x="136" y="323.4482">memory stress.</text><!--MD5=[e9053c6dbb891ad4199c45de881c9d13]
+entity website--><rect fill="#438DD5" height="148.0469" style="stroke: #3C7FC0; stroke-width: 1.5;" width="218" x="80.5" y="414"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="152.5" y="435.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="198" x="90.5" y="452.8203">Server-side Rendering</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="114" x="132.5" y="467.7324">[Next.js &amp; Reactjs]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="191.5" y="483.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="187" x="94" y="499.8545">Renders the page from the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="169" x="103" y="516.1514">server to make the meta</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="115" y="532.4482">tags changeable and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="119" x="130" y="548.7451">improve the SEO.</text><!--MD5=[dd82451e1dd92fe3da01853750f49ff6]
+entity server--><rect fill="#438DD5" height="131.75" style="stroke: #3C7FC0; stroke-width: 1.5;" width="186" x="96.5" y="708"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="152.5" y="729.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="148" y="746.8203">Back-end</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="164.5" y="761.7324">[Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="191.5" y="777.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="116.5" y="793.8545">Handles all the client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="106.5" y="810.1514">requests and responds</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="169.5" y="826.4482">them.</text><!--MD5=[b9b1bc63773a118685e9b5feeb56bf85]
+entity payment--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="196" x="108.5" y="986"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="169.5" y="1007.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="132" y="1024.8203">Payment Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="50" x="181.5" y="1039.7324">[Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="208.5" y="1055.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="118.5" y="1071.8545">Handles all payment stuff.</text><!--MD5=[d112aecbd7ccc75573a6ee2503a173b3]
+entity email--><rect fill="#438DD5" height="99.1563" style="stroke: #3C7FC0; stroke-width: 1.5;" width="179" x="339" y="724.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="391.5" y="745.6387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="370" y="763.3203">Email Worker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="36" x="410.5" y="778.2324">[Java]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="430.5" y="794.0576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="349" y="810.3545">Sends queued E-mails.</text><!--MD5=[5678b341ea257d92357949db508fe591]
+entity costumer--><rect fill="#08427B" height="52.5938" style="stroke: #073B6F; stroke-width: 1.5;" width="107" x="136" y="8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="161" y="29.1387">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="146" y="46.8203">Costumer</text><!--MD5=[979bcc919fe3deace2fbebc05cbbcf30]
+entity rabbitmq--><path d="M364.5,1007.5 C364.5,997.5 411.5,997.5 411.5,997.5 C411.5,997.5 458.5,997.5 458.5,1007.5 L458.5,1063.0625 C458.5,1073.0625 411.5,1073.0625 411.5,1073.0625 C411.5,1073.0625 364.5,1073.0625 364.5,1063.0625 L364.5,1007.5 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M364.5,1007.5 C364.5,1017.5 411.5,1017.5 411.5,1017.5 C411.5,1017.5 458.5,1017.5 458.5,1007.5 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="374.5" y="1032.6387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="382.5" y="1050.3203">Queue</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="68" x="377.5" y="1065.2324">[RabbitMQ]</text><!--MD5=[0e1fecc31e3549f2a1667c6349b56d9e]
+entity postgres--><path d="M6,1174 C6,1164 57.5,1164 57.5,1164 C57.5,1164 109,1164 109,1174 L109,1229.5625 C109,1239.5625 57.5,1239.5625 57.5,1239.5625 C57.5,1239.5625 6,1239.5625 6,1229.5625 L6,1174 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M6,1174 C6,1184 57.5,1184 57.5,1184 C57.5,1184 109,1184 109,1174 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="20.5" y="1199.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="83" x="16" y="1216.8203">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="17.5" y="1231.7324">[PostgreSQL]</text><!--MD5=[7a9582dbc2a6e5ccc94a2e4575bd66d6]
+link costumer to nginx--><path d="M189.5,61.04 C189.5,94.03 189.5,152.76 189.5,199.57 " fill="none" id="costumer-&gt;nginx" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="189.5,204.64,193.5,195.64,189.5,199.64,185.5,195.64,189.5,204.64" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="190.5" y="104.0669">Request</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="48" x="197" y="118.2715">[HTTPS]</text><!--MD5=[11979b0227cd24ee5c1c2aef132e3045]
+link nginx to website--><path d="M189.5,337.09 C189.5,359.61 189.5,385.09 189.5,408.57 " fill="none" id="nginx-&gt;website" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="189.5,413.86,193.5,404.86,189.5,408.86,185.5,404.86,189.5,413.86" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="190.5" y="380.0669">Redirects</text><!--MD5=[46105bf0bc2e7c27c013d479250f1a47]
+link website to server--><path d="M189.5,562.14 C189.5,605.41 189.5,659.94 189.5,702.71 " fill="none" id="website-&gt;server" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="189.5,707.86,193.5,698.86,189.5,702.86,185.5,698.86,189.5,707.86" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="190.5" y="607.0669">Request</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="201" y="621.2715">[HTTP]</text><!--MD5=[49ba58362fe0644d01509408725260c4]
+link server to payment--><path d="M193.77,840.15 C196.6,883.4 200.28,939.5 202.95,980.31 " fill="none" id="server-&gt;payment" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="203.3,985.71,206.6995,976.4664,202.9712,980.7208,198.7168,976.9925,203.3,985.71" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="197.5" y="885.0669">Request</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="208" y="899.2715">[HTTP]</text><!--MD5=[195d6fc966841fb1c1bca61d1e7befc6]
+link server to postgres--><path d="M99.32,840.26 C78.37,860.36 58.89,884.31 47.5,911 C12.46,993.08 30.7,1100.43 45.27,1158.77 " fill="none" id="server-&gt;postgres" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="46.57,1163.92,48.2072,1154.2082,45.3271,1159.0769,40.4583,1156.1968,46.57,1163.92" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="48.5" y="1040.0669">Query</text><!--MD5=[6483134ca8b1a3e1876ff80f9a6c9b14]
+link payment to postgres--><path d="M162.2,1085.41 C140.71,1109.13 115.18,1137.31 94.72,1159.91 " fill="none" id="payment-&gt;postgres" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="91.22,1163.77,100.23,1159.7926,94.5798,1160.0671,94.3053,1154.4169,91.22,1163.77" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="43" x="132.5" y="1130.0669">Query</text><!--MD5=[65b1669106eb0583688166b7f760a61f]
+link server to rabbitmq--><path d="M255.6,840.13 C276.95,862.07 300.31,887.07 320.5,911 C342.74,937.36 365.77,968.66 383.1,993.15 " fill="none" id="server-&gt;rabbitmq" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="386.04,997.33,384.1151,987.6711,383.1555,993.246,377.5806,992.2863,386.04,997.33" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="311.5" y="892.0669">Enqueue</text><!--MD5=[9ac6f9a9f11aff80fb0c37e269d53ba5]
+link email to rabbitmq--><path d="M425.32,823.51 C422.15,871.96 417.32,945.69 414.29,991.94 " fill="none" id="email-&gt;rabbitmq" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="413.95,997.16,418.5332,988.4425,414.2788,992.1708,410.5505,987.9164,413.95,997.16" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="422.5" y="892.0669">Consume</text><!--MD5=[9402c73992218f17aefb1b5c17e3d829]
+@startuml wckd-store website access process
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+Person(costumer, "Costumer")
+
+System_Boundary(client_boundary, "wckd-store client") {
+    
+    Container(nginx, "Load Balancer", "Nginx", "Looks for the server with the lowest processing and memory stress.")
+    Container(website, "Server-side Rendering", "Next.js & Reactjs", "Renders the page from the server to make the meta tags changeable and improve the SEO.")
+
+}
+
+System_Boundary(server_boundary, "wckd-store server") {
+
+    Container(server, "Back-end", "Spring", "Handles all the client requests and responds them.")    
+
+}
+
+System_Boundary(service_boundary, "wckd-store services") {
+
+    Container(payment, "Payment Service", "Spring", "Handles all payment stuff.")    
+
+}
+
+System_Boundary(worker_boundary, "wckd-store workers") {
+
+    Container(email, "Email Worker", "Java", "Sends queued E-mails.")    
+
+}
+
+ContainerDb(rabbitmq, "Queue", "RabbitMQ")
+ContainerDb(postgres, "Database", "PostgreSQL")
+
+Rel(costumer, nginx, "Request", "HTTPS")
+Rel(nginx, website, "Redirects")
+Rel(website, server, "Request", "HTTP")
+Rel(server, payment, "Request", "HTTP")
+
+Rel(server, postgres, "Query")
+Rel(payment, postgres, "Query")
+
+Rel(server, rabbitmq, "Enqueue")
+Rel(email, rabbitmq, "Consume")
+
+@enduml
+
+@startuml wckd-store website access process
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+rectangle "==Costumer" <<person>> as costumer
+
+rectangle "==wckd-store client\n<size:12>[System]</size>" <<boundary>> as client_boundary {
+    
+    rectangle "==Load Balancer\n//<size:12>[Nginx]</size>//\n\n Looks for the server with the lowest processing and memory stress." <<container>> as nginx
+    rectangle "==Server-side Rendering\n//<size:12>[Next.js & Reactjs]</size>//\n\n Renders the page from the server to make the meta tags changeable and improve the SEO." <<container>> as website
+
+}
+
+rectangle "==wckd-store server\n<size:12>[System]</size>" <<boundary>> as server_boundary {
+
+    rectangle "==Back-end\n//<size:12>[Spring]</size>//\n\n Handles all the client requests and responds them." <<container>> as server    
+
+}
+
+rectangle "==wckd-store services\n<size:12>[System]</size>" <<boundary>> as service_boundary {
+
+    rectangle "==Payment Service\n//<size:12>[Spring]</size>//\n\n Handles all payment stuff." <<container>> as payment    
+
+}
+
+rectangle "==wckd-store workers\n<size:12>[System]</size>" <<boundary>> as worker_boundary {
+
+    rectangle "==Email Worker\n//<size:12>[Java]</size>//\n\n Sends queued E-mails." <<container>> as email    
+
+}
+
+database "==Queue\n//<size:12>[RabbitMQ]</size>//" <<container>> as rabbitmq
+database "==Database\n//<size:12>[PostgreSQL]</size>//" <<container>> as postgres
+
+costumer - -> nginx : "===Request\n//<size:12>[HTTPS]</size>//"
+nginx - -> website : "===Redirects"
+website - -> server : "===Request\n//<size:12>[HTTP]</size>//"
+server - -> payment : "===Request\n//<size:12>[HTTP]</size>//"
+
+server - -> postgres : "===Query"
+payment - -> postgres : "===Query"
+
+server - -> rabbitmq : "===Enqueue"
+email - -> rabbitmq : "===Consume"
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 06:35:57 BRT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.8+10-post-Ubuntu-0ubuntu120.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

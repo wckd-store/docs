@@ -1,0 +1,46 @@
+@startuml wckd-store website access process
+
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+Person(costumer, "Costumer")
+
+System_Boundary(client_boundary, "wckd-store client") {
+    
+    Container(nginx, "Load Balancer", "Nginx", "Looks for the server with the lowest processing and memory stress.")
+    Container(website, "Server-side Rendering", "Next.js & Reactjs", "Renders the page from the server to make the meta tags changeable and improve the SEO.")
+
+}
+
+System_Boundary(server_boundary, "wckd-store server") {
+
+    Container(server, "Back-end", "Spring", "Handles all the client requests and responds them.")    
+
+}
+
+System_Boundary(service_boundary, "wckd-store services") {
+
+    Container(payment, "Payment Service", "Spring", "Handles all payment stuff.")    
+
+}
+
+System_Boundary(worker_boundary, "wckd-store workers") {
+
+    Container(email, "Email Worker", "Java", "Sends queued E-mails.")    
+
+}
+
+ContainerDb(rabbitmq, "Queue", "RabbitMQ")
+ContainerDb(postgres, "Database", "PostgreSQL")
+
+Rel(costumer, nginx, "Request", "HTTPS")
+Rel(nginx, website, "Redirects")
+Rel(website, server, "Request", "HTTP")
+Rel(server, payment, "Request", "HTTP")
+
+Rel(server, postgres, "Query")
+Rel(payment, postgres, "Query")
+
+Rel(server, rabbitmq, "Enqueue")
+Rel(email, rabbitmq, "Consume")
+
+@enduml
